@@ -184,5 +184,6 @@ EOT
     ])
     error_message = "Each steps list must contain at most 50 items"
   }
+  # Note: 9 additional provider-side validators are enforced at apply time but not mirrored as validation{} blocks here (bespoke or non-mechanically-translatable).
 }
 
